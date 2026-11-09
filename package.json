@@ -1,0 +1,23 @@
+{
+  "name": "lab-stream-zip",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Compare Hapi ZIP downloads from a Node.js Stream and from a Buffer produced by the same JSZip stream.",
+  "type": "module",
+  "engines": {
+    "node": "24.22.1"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@hapi/hapi": "21.4.13",
+    "jszip": "3.10.2"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "typescript": "5.9.3"
+  }
+}
